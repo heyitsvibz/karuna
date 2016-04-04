@@ -1,0 +1,206 @@
+body {
+    background-color: #fafafa;
+}
+
+.blannk {
+    background-color: #fff;
+}
+
+.awesome {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.stat_update_action {
+    margin-top: 35px;
+}
+
+.notif {
+    margin-left: 10px;
+}
+
+.add-admin-margin,
+.fixadd-admin {
+    margin-top: 20px;
+}
+
+#second {
+    margin: 50px 20px 50px 20px;
+}
+
+#third {
+    background-color: #62bdf0;
+    color: #fff;
+    padding: 20px 20px 0px 20px;
+}
+
+#third .pull-right {
+    padding-right: 30px;
+    height: 40px;
+    max-width: 1500px;
+}
+
+.cur1 {
+    cursor: progress;
+}
+
+.datum {
+    padding: 10px 10px 10px 10px;
+    margin: 50px 0px 50px 0px;
+    text-align: justify;
+    color: #34495e;
+}
+
+.datum h1 {
+    text-transform: uppercase;
+}
+
+.datum p,
+.datum h1 {
+    padding: 0px 20px 20px 20px;
+}
+
+.reset {}
+
+.fix1 {
+    margin-top: 100px;
+}
+
+.tix {
+    border: 1px solid #ccc;
+}
+
+.form-control {
+    margin: 5px 5px 5px 5px;
+}
+
+#main {
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.jmbo {
+    background-color: transparent;
+    padding-bottom: 0px;
+    margin-top: 240px;
+}
+
+.headline {
+    color: #fff!important;
+}
+
+.morphext > .animated {
+    display: inline-block;
+}
+
+.notification {
+    position: absolute;
+    top: 73px;
+    right: 10px;
+    width: 318px;
+    height: 54px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    /* width and height can be anything, as long as they're equal */
+}
+
+
+/*status circles */
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Spinning, gradient circle; CSS only! */
+.pen-or
+{
+     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, blue, orange);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+}
+
+.com-gr
+{
+     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, green 100%, orange 0%, red 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, orange,green);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, green 100%, orange 0%, red 95%);
+}
+
+#advanced {
+    width: 15px;
+    height: 15px;
+    animation-name: spin;
+    animation-duration: 3s;
+    /* 3 seconds */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+/*status circles end*/
+
+@media only screen and (max-width: 480px) {
+    .jmbo {
+        margin-top: 50px;
+    }
+    #third p {
+        display: none;
+    }
+    #second {
+        margin: 0px;
+    }
+    .datum p,
+    .datum h1,
+    {
+        padding: 0px;
+    }
+    .datum {
+        margin: 0px;
+    }
+    .notification {
+        display: none;
+    }
+    #third .pull-right span {
+        display: none;
+    }
+    .headline {
+        display: none;
+    }
+    #main {
+        background-image: none;
+        background-color: #CBE32D;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .jmbo {
+        margin-top: 0px;
+        !important
+    }
+    #main {
+        background-image: none;
+        background-color: #CBE32D;
+        margin-top: 50px;
+    }
+    .headline {
+        display: none;
+    }
+    .notification {
+        display: none;
+    }
+    .datum {
+        margin: 0px;
+    }
+}

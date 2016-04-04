@@ -1,0 +1,8 @@
+
+<div class="jumbotron awesome">
+        <h2 class="text-center">Thank You !</h2>
+        <p class="text-center">While you Relax, we would assign a volunteer to collect your stuff on the scheduled pick up time. Meanwhile if you have any query or any special instruction, <br>feel free to buzz us <img src="pages/assets/img/wa.png" height="32px"><u>+91 9560300505</u> or drop a <img src="pages/assets/img/mail.png" height="32px"> <u> support@karunahelp.com</u> </p>
+        <div class="loaded">
+          <p class="text-center awesome">Click<img class="love" src="pages/assets/img/heart.png" height="32px"></img> If you loved our idea ! </p>
+        </div>
+      </div>
